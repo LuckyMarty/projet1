@@ -23,7 +23,3 @@ jobs:
     - name: Run tests
       run: |
         source venv/bin/activate
-    - name: Display test results
-      run: |
-        source venv/bin/activate
-        pytest --cov=app tests/
