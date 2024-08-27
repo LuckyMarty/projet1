@@ -23,4 +23,4 @@ jobs:
     - name: Run tests
       run: |
         source venv/bin/activate
-        python ${{ github.workspace }}/app.py
+        pytest ${{ github.workspace }}/app.py
